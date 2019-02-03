@@ -2,11 +2,11 @@
 
 namespace GirlScoutCookies
 {
-    class Program
+    class OrderApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
