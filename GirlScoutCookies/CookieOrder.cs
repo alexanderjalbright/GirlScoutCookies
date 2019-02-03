@@ -6,27 +6,11 @@ namespace GirlScoutCookies
 {
     public class CookieOrder
     {
-        public CookieOrder(int whichKind, int howMany)
+        public CookieOrder(string whichKind, int howMany)
         {
-            KindsOfCookies = new List<string>()
-            {
-                "S'mores®",
-                "Thin Mints®",
-                "Samoas®",
-                "Tagalongs®",
-                "Trefoils®",
-                "Do-si-dos®",
-                "Lemonades™",
-                "Savannah Smiles®",
-                "Thanks-A-Lot®",
-                "Toffee-tastic®",
-                "Caramel Chocolate Chip"
-            };
-
-            Variety = KindsOfCookies[whichKind];
+            Variety = whichKind;
 
             NumBoxes = howMany;
-
         }
 
         public List<string> KindsOfCookies { get; }
